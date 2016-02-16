@@ -1,0 +1,192 @@
+
+
+header
+{
+	height: 275px;
+	width: 100%;
+	background: #0ABAB5;
+	margin: 0;
+	position: relative;
+
+	
+}
+body 
+{
+    font-family: SourceSans;
+    font-color: White;
+    margin: 0;
+    padding: 0;
+background: #EE9A96;
+  
+}
+.burrellheader{
+	background: left url("images/katieheader.png");
+	height:100%;
+	width: 100%;
+	opacity: .25;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	top: 0px;
+	right: 0px;
+	display: block;
+	z-index: -100;
+
+}
+.contentcontainer{
+	width:80%;
+	height:100%;
+	padding-top: 20px;
+	align: center;
+	position: relative;
+	margin: auto;
+
+}
+h1
+{
+	font-size: 80px;
+	color: white;
+	font-family: Raleway; SansSerif;
+	padding-left: 25px;
+	padding-bottom: 10px;
+	z-index: 100;
+	position: absolute;
+	top:147px;
+
+
+}
+h2
+{
+	font-size: 30px;
+	color:white;
+	font-family: Raleway-Light; Sans Serif;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+h3
+{
+	font-family: Raleway; Sans Serif;
+	font-size: 20px;
+	color:white;
+	text-transform: uppercase;
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+
+.subtitle
+{
+	font-family: Raleway;
+	font-size: 20px;
+	color: white;
+	padding-left: 25px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+p{
+	font-family: Helvetica, Arial, sans-serif;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	color: white;
+
+}
+p.footer
+{
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 5px;
+	color: white;
+
+}
+a{
+	font-family: Raleway;
+	color: white;
+	background-color: #60DFE5;
+	text-decoration: none;
+	padding: 25px;
+	margin: 25px;
+	border: 3px solid white;
+	text-align: left;
+}
+a:link, { 
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    
+}
+a:visited { 
+    color: #1DA8AF;
+    text-decoration: none;
+    cursor: auto;
+    
+}
+a:hover, a:active {
+    background-color: #1DA8AF;
+    color: white;
+
+}
+.social{
+	text-align: left;
+	clear: both;
+	
+}
+.social h2{
+	text-align:left;
+	padding-top: 10px;
+}
+a.class1{
+	font-family: Raleway;
+	color: white;
+	text-decoration: none;
+	padding-left: 0px;
+	text-align: left;
+
+}
+img{
+	margin-left: 25px;
+	margin-right:25px;
+	margin-bottom:	25px;
+	border: solid white 3px;
+	z-index:-1;
+	float:left;
+	clear: both;
+}
+ul{
+	list-style-type: square;
+}
+
+li{
+	
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+.footer{
+	position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  background-color: #E56861;
+background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+}
+#footertext{
+	font-size: 16px;
+	font-family: Raleway;
+	color: white;
+	padding-left: 25px;
+	float: center;
+}
+.standup{
+	float: left;
+	clear: left;
+}
+.writing{
+	float:right;
+	clear: right;
+}
+
+
