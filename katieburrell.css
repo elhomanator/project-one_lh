@@ -37,7 +37,7 @@ background: #EE9A96;
 	width:80%;
 	height:100%;
 	padding-top: 20px;
-	align: center;
+	padding-bottom: 3em;
 	position: relative;
 	margin: auto;
 
@@ -161,8 +161,7 @@ li{
 	padding-bottom: 5px;
 }
 .footer{
-	position: absolute;
-  bottom: 0;
+
   height: 40px;
   width: 100%;
   padding: 5px;
@@ -188,5 +187,14 @@ background-attachment: scroll;
 	float:right;
 	clear: right;
 }
-
+.social-links li{
+		font-family: Raleway;
+	color: white;
+	background-color: #coral;
+	text-decoration: none;
+	padding: 25px;
+	margin: 25px;
+	border: 3px solid white;
+	text-align: left;
+}
 
